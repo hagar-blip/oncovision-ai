@@ -1,8 +1,17 @@
+# AI Models
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+
+# Python
 venv/
 __pycache__/
+*.pyc
 
-models/*.pth
-models/*.pt
+# Environment
+.env
 
+# Uploads
 uploads/
-outputs/
