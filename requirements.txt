@@ -9,3 +9,4 @@ numpy
 ultralytics
 opencv-python-headless
 grad-cam
+huggingface_hub
