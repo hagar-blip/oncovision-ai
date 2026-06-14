@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-multipart
 tensorflow
 torch
@@ -10,3 +10,4 @@ ultralytics
 opencv-python-headless
 grad-cam
 huggingface_hub
+requests
