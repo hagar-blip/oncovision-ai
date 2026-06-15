@@ -1,12 +1,16 @@
 fastapi
 uvicorn
 python-multipart
+
 tensorflow
 torch
 torchvision
+
 pillow
 numpy
+
 ultralytics
+
 opencv-python-headless==4.10.0.84
-grad-cam
+
 huggingface_hub
