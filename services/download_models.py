@@ -13,17 +13,15 @@ MODELS = [
 def download_models():
     os.makedirs("models", exist_ok=True)
 
+    token = os.getenv("HF_TOKEN")
+
     for model_name in MODELS:
         local_path = os.path.join("models", model_name)
 
         if not os.path.exists(local_path):
-            print(f"Downloading {model_name}...")
-
             hf_hub_download(
                 repo_id=REPO_ID,
                 filename=model_name,
                 local_dir="models",
-                local_dir_use_symlinks=False
+                token=token
             )
-
-            print(f"{model_name} downloaded.")
