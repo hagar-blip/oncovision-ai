@@ -9,10 +9,9 @@ torchvision
 pillow
 numpy
 
-ultralytics
+opencv-python-headless
 
-opencv-python-headless==4.10.0.84
-
+grad-cam
 huggingface_hub
 
---extra-index-url https://pypi.org/simple
+ultralytics==8.3.0
