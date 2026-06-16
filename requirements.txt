@@ -9,9 +9,8 @@ torchvision
 pillow
 numpy
 
-opencv-python-headless
+opencv-python-headless==4.10.0.84
 
-grad-cam
 huggingface_hub
 
 ultralytics==8.3.0
